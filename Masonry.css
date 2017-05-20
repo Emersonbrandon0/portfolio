@@ -1,0 +1,11 @@
+.grid-item { width: 25%; padding: 0;margin:0;}
+.grid-item--width2 { width: 50%; padding: 0;margin:0;}
+.img{padding:0; margin:0; animation:fadeIn 3s 1;}
+@keyframes fadeIn{
+  0%{opacity: 0.1;transform:rotateX(90deg)}
+  20%{transform:scale(1.05)}
+  100{opacity: 1;transform:scale(1)}
+}
+.grid{
+	overflow: hidden;
+}
