@@ -5,6 +5,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css"/>
 	<link rel="stylesheet" href="stylesheet.css"/>
 	<link rel="stylesheet" href="masonry.css"/>
+	<link rel="stylesheet" href="modal.css"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -29,18 +30,80 @@
 			Hi, I'm Brandon. I use Javascript for front-end and back-end development and I also enjoy creating user interfaces.
 		</h1>
 	</div>
-	<div class="wrapper">
-		<div class="grid">
-			<div class="grid-item"><img src="img/background5.jpg" class="img img-fluid"/></div>
-			<div class="grid-item"><img src="img/day6home.jpg" class="img img-fluid"/></div>
-			<div class="grid-item grid-item--width2"><img src="img/day8home.jpg" class="img img-fluid"/></div>
-			<div class="grid-item"><img src="img/day4home.jpg" class="img img-fluid"/></div>
-			<div class="grid-item"><img src="img/day5home.jpg" class="img img-fluid"/></div>
-			<div class="grid-item"><img src="img/day13home.jpg" class="img img-fluid"/></div>
-			<div class="grid-item grid-item--width2"><img src="img/day18home.jpg" class="img img-fluid"/></div>
-			<div class="grid-item"><img src="img/day25home.jpg" class="img img-fluid"/></div>
+	<div class="middleWrapper wrappers">
+		<h1 class="skills">
+			Experienced with:
+		</h1>
+		<div class="row skillList">
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>AngularJS</li>
+					<li>npm</li>
+					<li>JavaScript</li>
+				</ul>
+
+			</div>
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>Node.js</li>
+					<li>Browser Automation</li>
+					<li>jQuery</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>Express.js</li>
+					<li>SASS</li>
+					<li>MVC Software Architecture</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>MongoDB</li>
+					<li>UI/UX Design</li>
+					<li>D3.js</li>
+				</ul>
+			</div>
 		</div>
+		<h2 class="callToAction">Click on any of the pictures below to find out more about some of the projects I've worked on</h2>
 	</div>
+	
+		<div class="wrapper">
+			<div class="grid">
+				<a href="#openModal" id="artMuseum">
+					<div class="grid-item" ><img src="img/background5.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="synthesizerStore">
+					<div class="grid-item"><img src="img/day6home.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="cosmicJazz">
+					<div class="grid-item grid-item--width2"><img src="img/day8home.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="clothingStore">
+					<div class="grid-item"><img src="img/day4home.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="photographer">
+					<div class="grid-item"><img src="img/day5home.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="blog">
+					<div class="grid-item"><img src="img/day13home.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="model">
+					<div class="grid-item grid-item--width2"><img src="img/day18home.jpg" class="img img-fluid"/></div>
+				</a>
+				<a href="#openModal" id="recipeBook">
+					<div class="grid-item"><img src="img/day25home.jpg" class="img img-fluid"/></div>
+				</a>
+			</div>
+		</div>
+	<div id="openModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h2 id="modalTitle"></h2>
+			<p id="modalText"></p>
+			<img id="modalImage" src="img/day8home.jpg"/>
+		</div>
+	</div>	
 
 </body>
 <script src="js/script.js"></script>

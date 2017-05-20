@@ -62,6 +62,23 @@
   text-transform: uppercase;
   color: #f4f4f4;
 }
+.skills{
+  position: relative;
+  text-align: center;
+  font-size: 400%;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bolder;
+}
+.skillList li{
+  position: relative;
+  text-align: center;
+  font-size: 200%;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+}
 .topWrapper{
   height:85%;
   position: relative;
@@ -69,6 +86,10 @@
   background: url("img/backgroundpic.jpg");
   background-size: 100% 100%;
   background-repeat: none;
+}
+.middleWrapper{
+  background-color: #f99020;
+  height:85%;
 }
 .wrapper{
   height:100%;
@@ -123,7 +144,6 @@ li,li:visited{
   text-transform:uppercase;
   color: white;
   font-family: 'Open Sans', sans-serif;
-  cursor: pointer;
 }
 
 .toggleButton, .toggleButton:hover {
@@ -136,7 +156,27 @@ li,li:visited{
   color: #f4f4f4;
 }
 
-
+#modalImage{
+  height: 350px;
+  width: 800px;
+}
+#modalTitle{
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+#modalText{
+  color: black;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+.callToAction{
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  padding-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+}
 @media (max-width: 768px) {
 }
 
