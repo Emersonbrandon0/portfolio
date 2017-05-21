@@ -1,0 +1,117 @@
+<html>
+<head>
+	<title>Brandon Emerson</title>
+	 <meta charset="UTF-8">
+	<link rel="stylesheet" href="stylesheets/bootstrap.css"/>
+	<link rel="stylesheet" href="stylesheets/stylesheet.css"/>
+	<link rel="stylesheet" href="stylesheets/masonry.css"/>
+	<link rel="stylesheet" href="stylesheets/modal.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script type="text/javascript" src="javascripts/jquery-3.2.0.min.js"></script>
+	<script src="javascripts/masonry.pkgd.min.js"></script>
+	<script src="javascripts/script.js"></script>
+	<script src="javascripts/masonry.js"></script>
+</head>
+<body>
+	<input type="checkbox" id="sidebarToggler" name="" value=""/>
+	<label for="sidebarToggler" class="toggleButton">☰</label>
+	<div class="sidebar">
+		<ul>
+			<li id="home"><a href="index.html">Home</a></li>
+			<li id="history"><a href="#">Projects</a></li>
+			<li id="artists"><a href="#">Skills</a></li>
+			<li><a href="music.html">Contact</a></li>
+		</ul>
+	</div>
+	<div class="topWrapper wrappers">
+		<h1 class="introText">
+			Hi, I'm Brandon. I use Javascript for front-end and back-end development and I also enjoy creating user interfaces.
+		</h1>
+	</div>
+	<div class="middleWrapper wrappers">
+		<h1 class="skills">
+			Experienced with:
+		</h1>
+		<div class="row skillList">
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>AngularJS</li>
+					<li>npm</li>
+					<li>JavaScript</li>
+				</ul>
+
+			</div>
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>Node.js</li>
+					<li>Browser Automation</li>
+					<li>jQuery</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>Express.js</li>
+					<li>SASS</li>
+					<li>MVC Software Architecture</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="skillList">
+					<li>MongoDB</li>
+					<li>UI/UX Design</li>
+					<li>D3.js</li>
+				</ul>
+			</div>
+		</div>
+		<h2 class="callToAction">
+			You can look at the source code for more of my projects on github <br/> <a href="https://github.com/Emersonbrandon0" target="_blank"> <img id="github" src="images/github.png"/> https://github.com/Emersonbrandon0</a>
+			<br/><br/>Click on any of the pictures below to find out more about some of the projects I've worked on</h2>
+	</div>
+	
+	<div class="wrapper">
+		<div class="grid">
+			<a href="#openModal" id="artMuseum">
+				<div class="grid-item" ><img src="images/background5.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="synthesizerStore">
+				<div class="grid-item"><img src="images/day6home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="cosmicJazz">
+				<div class="grid-item grid-item--width2"><img src="images/day8home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="clothingStore">
+				<div class="grid-item"><img src="images/day4home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="photographer">
+				<div class="grid-item"><img src="images/day5home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="blog">
+				<div class="grid-item"><img src="images/day13home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="model">
+				<div class="grid-item"><img src="images/day18home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="recipeBook">
+				<div class="grid-item"><img src="images/day25home.jpg" class="img img-fluid"/></div>
+			</a>
+			<a href="#openModal" id="chat">
+				<div class="grid-item"><img src="images/day16home.jpg" class="img img-fluid"/></div>
+			</a>
+		</div>
+	</div>
+	<div class="contact wrappers">
+	</div>
+	<div id="openModal" class="modalDialog">
+		<div>
+			<a href="#close" title="Close" class="close">X</a>
+			<h2 id="modalTitle"></h2>
+			<p id="modalText"></p>
+			<img id="modalImage" src="images/day8home.jpg"/>
+		</div>
+	</div>	
+
+</body>
+<script src="javascripts/script.js"></script>
+</html>
